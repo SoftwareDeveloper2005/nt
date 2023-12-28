@@ -1,0 +1,62 @@
+:root {
+  primaryContrast:#840032;
+  primaryBasic:#002642;
+  secondaryContrast:#00B295;
+  secondaryBasic:#0D5D56;
+  accent:#DB5375;
+  lightVariant:#FFE3DC;
+}
+.App {
+  text-align: center;
+  
+}
+.bgImg{
+  filter:blur(10px);
+}
+.dropdownItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 1%;
+  background-color: var(primaryContrast);
+  color: var(lightVariant);
+  border-bottom: 1px solid var(lightVariant);
+}
+.leftNavItems{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+  padding-left: 1%;
+}
+nav {
+  background-color: var(primaryContrast);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: var(lightVariant);
+}
+.navWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.rightNavItems{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  padding-right: 1%;
+}
+
+
